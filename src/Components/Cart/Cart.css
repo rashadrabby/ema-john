@@ -1,0 +1,51 @@
+.cart{
+    padding-top: 25px;
+    position: sticky;
+    top: 0;
+}
+
+.order-title{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.btn{
+    margin-top: 60px;
+    display: grid;
+    gap: 16px;
+}
+.btn button{
+    width: 95%;
+    height: 48px;
+    margin: auto;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Lato';
+    font-size: 17px;
+}
+.clear{
+    color: white;
+    background-color: #FF3030;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clear:active{
+    background-color: #c70505;
+}
+
+.review{
+    color: white;
+    background-color: #FF9900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.review:active{
+    background-color: #d68307;
+}
+
+.clear p, .review p{
+    padding-right: 8px;
+}
