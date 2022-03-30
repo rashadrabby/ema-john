@@ -22,3 +22,16 @@
     color: orange;
     
 }
+
+
+@media screen and (max-width:800px) {
+    .header a{
+    display: none;
+    }
+
+    .nav{
+        display: flex;
+        flex-direction: row;
+    }
+    
+}
